@@ -1,5 +1,6 @@
 def sample():
-    num = 10
-    print(f'Local Space : {num}')
+    global num
+    num = 30
+    print(f'local : {num}')
 sample()
-print(f'Global Space : {num}')
+print(f'Global : {num}')
