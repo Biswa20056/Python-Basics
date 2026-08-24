@@ -42,7 +42,7 @@ def pallindrome(num)->int:
     return rev  
 
 def EMRIP(num)->str:
-    if prime(num) and pallindrome(num) and prime(pallindrome(num)):
+    if prime(num) and pallindrome(num)!=num and prime(pallindrome(num)):
         return "EMRIP Number"
     return 'Not EMRIP Number'
 num = 19
@@ -66,14 +66,13 @@ def pallindrome(num)->int:
     while num>0:
         rev = rev*10 + (num%10)
         num//=10
-    if dup!=rev and prime(rev):
-       return True
-    return False    
+    return rev
+   
 
 def EMRIP(num)->str:
     res = pallindrome(num)
     if prime(num) and res!= num and prime(res):
         return "EMRIP Number"
     return 'Not EMRIP Number'
-num = 17
+num = 19
 print(EMRIP(num))
