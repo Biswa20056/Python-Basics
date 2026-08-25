@@ -1,16 +1,16 @@
 def sum(num:int)->int:
-    return num
+    total = 0
+    return num + total
 
 def multi(num:int)->int:
-    return num
+    product = 1
+    return num*product
 
 def digits(num:int):
     num = abs(num)
-    total = 0
-    product = 1
     while num>0:
-        total = total + sum(num%10)
-        product = product * multi(num%10)
+        total = sum(num%10)
+        product = multi(num%10)
         num //= 10
     return total==product
 
@@ -19,5 +19,5 @@ def spy(num:int)->str:
         return 'Spy number'
     return 'Not spy number'
 
-num = -1124
+num = 123
 print(spy(num))

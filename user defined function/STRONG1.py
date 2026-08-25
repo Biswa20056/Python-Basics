@@ -6,10 +6,8 @@ def factor(num: int) -> int:
 
 def digits(num: int) -> int:
     total = 0
-
     while num > 0:
-        rem = num % 10
-        total += factor(rem)
+        total += factor(num%10)
         num //= 10
     return total
 
@@ -19,5 +17,5 @@ def is_strong(num: int) -> str:
 
     return "Not Strong Number"
 
-num = 145
+num = 40585
 print(is_strong(num))

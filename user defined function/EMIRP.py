@@ -68,7 +68,6 @@ def pallindrome(num)->int:
         num//=10
     return rev
    
-
 def EMRIP(num)->str:
     res = pallindrome(num)
     if prime(num) and res!= num and prime(res):
