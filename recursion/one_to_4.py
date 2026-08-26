@@ -34,3 +34,9 @@ def sample1(num):
 
 num = 10
 sample1(num)
+
+
+def sample1():
+    sample1()
+def sample2():
+    sample2()

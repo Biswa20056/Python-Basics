@@ -1,0 +1,27 @@
+recursion will never raise any error
+stack has some fixed memory location until this the function call happend then returns error
+recursion does not gives infinite loop it returns infinite function call
+
+def sample(num):
+    print(num)
+    num = num+1
+    sample(num)
+
+num = 1
+print(sample(num))
+
+The above function will returns 1020 times and while executing 1021 time it will raise error
+
+For every function call there is 1020 or 2**10 spaces of stack
+if there is 2 function then there should 2 stack of each having 1020 memory spaces
+Recursion takes more space and more time, but in sorting algorithms in which only by the help of recursion the program can be done
+In recursion we have to giev first where we have to stop our program
+
+def sample(num):
+    print(num)
+    num = num+1
+    sample(num)
+
+num = 1
+
+The above code will not raise any error bcoz we are not calling the main function in the global space

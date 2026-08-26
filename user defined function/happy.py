@@ -52,7 +52,7 @@ def is_Happy(num:int)->str:
     while num>9:
         num = sq(num)
     if num in (1,7):
-        return 'HAppy Number'
+        return 'Happy Number'
     return 'Not Happy Number'
 
 num = -1
