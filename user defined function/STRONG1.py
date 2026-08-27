@@ -17,5 +17,10 @@ def is_strong(num: int) -> str:
 
     return "Not Strong Number"
 
+<<<<<<< HEAD
 num = 40585
 print(is_strong(num))
+=======
+num = 145
+print(is_strong(num))
+>>>>>>> cf920c9 (Added problems in recursion)
