@@ -1,7 +1,6 @@
 def add_square_digit(num):
     return num**2
 
-
 def digit(num):
     res = 0 
     while num>0:

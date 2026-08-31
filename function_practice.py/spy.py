@@ -11,7 +11,6 @@ def digit(num):
         return True
     return False
 
-
 def spy(num):
     if digit(num):
         return 'Spy Number'
