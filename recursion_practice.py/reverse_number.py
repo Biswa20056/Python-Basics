@@ -11,13 +11,10 @@ print(reverse(num,place))
 print('\nMethod2\n')
 
 
-def Reverse(num):
-    rev = 0
-    while num>0:
-        rem = num%10
-        rev = rev*10 + rem
-        num//=10
-    return rev
-
+def Reverse(num,rev=0):
+    if num==0:
+        return rev
+    return  Reverse(num//10,rev*10 + num%10)
+    
 num = 345
 print(Reverse(num))
