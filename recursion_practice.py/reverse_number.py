@@ -10,7 +10,6 @@ print(reverse(num,place))
 
 print('\nMethod2\n')
 
-
 def Reverse(num,rev=0):
     if num==0:
         return rev

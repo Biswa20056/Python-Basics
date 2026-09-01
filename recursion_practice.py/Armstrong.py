@@ -25,3 +25,5 @@ if Armstrong(num)==num:
     print('Armstrong Number')
 else:
     print('Not Armstrong Number')
+
+    
