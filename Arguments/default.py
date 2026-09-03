@@ -4,3 +4,5 @@ def Sample(a,b,c='mock'):
     print(c)
 
 Sample(10,b='Python')
+Sample(10,30,50)
+
