@@ -3,7 +3,6 @@ def reverse(num,place):
         return 0
     return (num%10)*place + reverse(num//10,place//10)
     
-
 def prime(num,val):
     if val>num:
         return 0
