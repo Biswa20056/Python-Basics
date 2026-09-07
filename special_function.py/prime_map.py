@@ -11,11 +11,12 @@ def prime(val):
 print(tuple(map(prime,range(1,101))))
 
 
-def Prime(num,i):
-    if i>num//2:
-        return f'{num} is prime'
-    if num%i==0:
-        return f'{num} is not prime'
-    return Prime(num,i+1)
+def Prime(num):
+    if num>1:
+        for val in range(2,int(num**0.5)+1):
+            if num%val==0:
+                return f'{num} is not prime'
+        return f'{num} is Prime'
+    return f'{num} is not Prime'
 
 print(tuple(map(Prime, range(1,101))))
