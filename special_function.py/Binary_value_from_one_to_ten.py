@@ -9,5 +9,4 @@ def binary_value(num):
         place*=10
     return f'The binary of {dup} is {binary}'
 
-
 print(tuple(map(binary_value,range(1,11))))
