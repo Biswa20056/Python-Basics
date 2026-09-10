@@ -1,0 +1,3 @@
+class sample():
+    print('Hello')
+    
