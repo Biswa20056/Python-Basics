@@ -16,3 +16,4 @@ print(Biswa.location,Biswa.course)
 
 print(sample.location)
 print(sample.location,sample.course)
+
