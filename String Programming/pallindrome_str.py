@@ -9,14 +9,3 @@ if res == s:
 else:
     print(f'{s} is not pallindrome string')
 
-print('Approach 2')
-
-s = 'malayalam'
-st = 0
-end = len(s)-1
-while st!=end:
-    if s[st]==s[end]:
-        st+=1
-        end-=1
-    else:
-        print('{s} is not pallindrome')
