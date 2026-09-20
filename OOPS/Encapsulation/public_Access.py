@@ -6,3 +6,4 @@ class Sample:
 obj1 = Sample()
 obj1.M1()
 print(obj1.a)
+# publi data can be accessed everywhere
