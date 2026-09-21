@@ -9,4 +9,6 @@ class Sample:
 obj = Sample()
 print(obj.gettar())
 print(obj.settar())
-print(obj.gettar())
+print(obj.gettar())# settar method is used to change the private data outside the class
+#both gettar and settar method carries one mandatory argument self
+# gettar and settar are object methods

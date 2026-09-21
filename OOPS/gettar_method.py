@@ -7,4 +7,5 @@ class sample:
 
 obj = sample()
 print(obj.gettar())
-print(obj.__a)
+#print(obj.__a) this will raise error bcoz a is now private data
+# gettar methof is used to acces the private data outside the class
