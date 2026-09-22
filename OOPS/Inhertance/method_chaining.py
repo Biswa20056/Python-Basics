@@ -14,3 +14,8 @@ class B(A):
         A.M1(self)
 obj1 = B()
 obj1.M1()
+'''
+while perrforming by class reference we do not have to give the inheritance means if we will write class B() it will not throw any error
+but while dealing with super class we have to pass the inheritance 
+and while delaing with the super clas we do not have to give the self for the methods
+'''

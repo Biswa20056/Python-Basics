@@ -12,3 +12,4 @@ class B(A):
 obj1 = B()
 obj1.M1()
 obj1.M2()
+# to access parent class constructor or method from child class constructor or method when parent class constructor or methods are overridden with child class constructor or methods we use chaining
