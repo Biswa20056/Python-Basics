@@ -6,4 +6,4 @@ for idx in range(n):
     if a[idx]==target:
         found = idx
         break
-print(found)
+print(found) 
