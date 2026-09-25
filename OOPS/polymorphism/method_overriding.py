@@ -10,3 +10,6 @@ class B:
         print('M2 of class B')
 obj = B()
 obj.M1()
+# chaining is opposite to method over riding
+# thsi is also calles run time polymorphism
+# multiple class contains sam emethod name but different functionalities then the method in the parent class is overridden by the method in the child class

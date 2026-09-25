@@ -37,3 +37,4 @@ class Sample:
         print(res)
 obj1 = Sample()
 obj1.M1(10,20,30,40,50)
+# in the above example we can pass any number of positional arguments
