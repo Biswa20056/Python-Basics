@@ -12,3 +12,4 @@ class HDFC_ATM(Bank):
 
 obj = SBI_ATM()
 obj.CheckBal()
+# we can not create instance for abstraction bcoz the implementation is incomple so creating object is useless
