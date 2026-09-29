@@ -8,11 +8,9 @@ while top <=bottom and left<=right:
     for i in range(left,right+1):
         res.append(nums[top][i])
     top+=1
-
     for i in range(top,bottom+1):
         res.append(nums[i][right])
     right-=1
-
     if top<=bottom:
         for i in range(right,left-1,-1):
             res.append(nums[bottom][i])
@@ -22,3 +20,4 @@ while top <=bottom and left<=right:
             res.append(nums[i][left])
         left+=1
 print(res)
+  
