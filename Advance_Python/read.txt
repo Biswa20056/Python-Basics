@@ -1,0 +1,4 @@
+Welcome to python file
+This file is for read method
+this is advance python
+we are deling with file handling
