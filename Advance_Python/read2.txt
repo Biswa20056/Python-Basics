@@ -1,0 +1,4 @@
+Welcome to python file
+This file is for read method
+hello world
+pranay sir is the best python trainer

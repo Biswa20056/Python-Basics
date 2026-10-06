@@ -1,0 +1,10 @@
+file = open('/Users/biswajit/Desktop/All/Python2026/Advance_Python/write_access_mode.py/sample.txt','w')
+print(file)
+print(file.tell())
+print(file.readable())
+print(file.writable())
+
+file1 = open('/Users/biswajit/Desktop/All/Python2026/Advance_Python/write_access_mode.py/sample1.txt','w')
+print(file1.tell())
+print(file.readable())
+print(file.writable())
