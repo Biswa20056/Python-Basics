@@ -3,5 +3,5 @@ print(file)
 file.write('abcd\n')
 file.write('hello')
 print(file.tell())
-file.write('python\nDSA')
+file.write('\npython\nDSA')
 file.close() # this works for saving in the text file
