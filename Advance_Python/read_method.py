@@ -1,7 +1,8 @@
 fileobj = open('/Users/biswajit/Desktop/All/Python2026/Advance_Python/read.txt','r',encoding='utf-8')
 #pribnt(fileobj.read()) this will return every thing from that objest
-print(fileobj.read(5)) # this will only return the 1st character from that object
-print(fileobj.read()) # this will only return the 10 character from that object
+print(fileobj.read(5))
+print(fileobj.read(10)) # this will only return the 1st character from that object
+print(fileobj.read()) # this will only return the 16th character from that object
 
 '''
 do not use fileobj.read()
