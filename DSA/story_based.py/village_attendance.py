@@ -10,6 +10,5 @@ def attendance(attendance):
             curr_attendance = 0
     return max_attendance
 
-
 att = [1, 1, 1, 0, 1, 0, 1, 1]
 print(attendance(att))
